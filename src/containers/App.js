@@ -29,7 +29,7 @@ class App extends Component {
         })
         return (
             <div className='tc'>
-                <h1>RoboFriends</h1>
+                <h1>RoboFriends Redux</h1>
                 <SearchBox SearchField={this.state.SearchField} SearchChange={this.onSearcChange}/>
                 <Scroll>
                     <CardsList robots={filterRobots}/>
